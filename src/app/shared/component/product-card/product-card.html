@@ -1,0 +1,17 @@
+<div class="card">
+    <img [src]="img()" alt="producto">
+    <div class="info">
+    <h2>{{name()}}</h2>
+    <div class="cart">
+        <p>${{price()}}</p>
+        <p [ngClass]="available() ? 'disponible' : 'agotado'">
+            {{ available() ? 'Disponible' : 'Agotado' }}
+        </p>
+    </div>
+    <div class="botones">
+    <button>Comprar</button>
+    <button>Agg carrito</button>
+    </div>
+    </div>
+
+</div>

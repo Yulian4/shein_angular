@@ -1,0 +1,55 @@
+<app-header></app-header>
+<form class="row g-3">
+    <h2>¿Deseas ser parte de nuestro equipo? Déjanos tu mensaje</h2>
+  <div class="col-md-4">
+    <label for="validationServer01" class="form-label">Nombre</label>
+    <input type="text" class="form-control " id="validationServer01" value="" required>
+
+  </div>
+  <div class="col-md-4">
+    <label for="validationServer02" class="form-label">Apellido</label>
+    <input type="text" class="form-control " id="validationServer02" value="" required>
+
+  </div>
+  <div class="col-md-4">
+    <label for="validationServerUsername" class="form-label">Nombre de tu empresa</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend3">@</span>
+      <input type="text" class="form-control " id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationServer03" class="form-label">Pais</label>
+    <input type="text" class="form-control " id="validationServer03" aria-describedby="validationServer03Feedback" required>
+
+  </div>
+  <div class="col-md-3">
+    <label for="validationServer04" class="form-label">Ciudad</label>
+    <select class="form-select " id="validationServer04" aria-describedby="validationServer04Feedback" required>
+      <option selected disabled value="">Choose...</option>
+      <option>París</option>
+      <option>Medellín</option>
+      <option>Guadalajara</option>
+      <option>Seoul</option>
+    </select>
+
+  </div>
+  <div class="col-md-3">
+    <label for="validationServer05" class="form-label">¿Qué producto deseas vender</label>
+    <input type="text" class="form-control " id="validationServer05" aria-describedby="validationServer05Feedback" required>
+
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input " type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+      <label class="form-check-label" for="invalidCheck3">
+        Agree to terms and conditions
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Enviar solicitud</button>
+  </div>
+</form>
+<app-footer></app-footer>

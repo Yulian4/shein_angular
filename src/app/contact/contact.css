@@ -1,0 +1,14 @@
+.row{
+    padding: 150px;
+}
+h2{
+    font-family: "Poppins", sans-serif;
+    color: #e72b79;
+}
+button{
+    background-color: #e72b79;
+    border: none;
+}
+button:hover{
+    background-color: #b3074f;
+}

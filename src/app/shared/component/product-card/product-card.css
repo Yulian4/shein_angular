@@ -1,0 +1,31 @@
+.card img{
+    min-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+}
+.card{
+        font-family: "Poppins", sans-serif;
+        max-width: 400px;
+        min-height: 550px;
+
+}
+.info{
+    padding: 8px;
+    font-weight: 600;
+}
+h2{
+    color: rgb(136, 12, 33);
+    font-size: 1.5rem;
+}
+
+button{
+    border: none;
+    padding: 5px;
+    margin: 0 0 0 30px;
+    background-color:rgb(255, 167, 181);
+    border-radius: 8px;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+}

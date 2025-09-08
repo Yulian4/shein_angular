@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    color: #e72b79;
+    font-weight: 600;
+}
+
+.logo{
+  font-family: "Alex Brush", cursive;
+  font-size: 3rem;
+}
