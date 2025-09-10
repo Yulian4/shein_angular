@@ -1,50 +1,67 @@
-.banner{
+.banner {
     object-fit: cover;
     border-radius: 40px;
     margin: 40px 150px;
     text-align: center;
 }
-.banner img{
+
+.banner img {
     width: 90%;
     height: 60vh;
     border-radius: 20px;
 }
+
 .container {
     display: flex;
-    justify-content: center;   /* centra horizontalmente */
-    align-items: center;       /* centra verticalmente */
+    justify-content: center;
+    /* centra horizontalmente */
+    align-items: center;
+    /* centra verticalmente */
     text-align: center;
     padding: 150px 0;
     gap: 35px;
     cursor: pointer;
     flex-wrap: wrap;
-    margin: 0 auto;            /* centra el contenedor en la página */
+    margin: 0 auto;
+    /* centra el contenedor en la página */
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
-    
+    border: 0;
+
 }
-.card img{
+
+.card img {
     width: 40vh;
     object-fit: cover;
     height: 57vh;
     border-radius: 10px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
     margin: 0 0 2vh 0;
-    
+
 }
-h2, h3{
+
+h2,
+h3 {
     font-family: "Poppins", sans-serif;
     color: rgb(223, 12, 83);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.226);
     font-size: 2rem;
+    font-weight: 600;
 }
-h3{
+
+h2:hover,
+h3:hover {
+    color: #b3074f;
+}
+
+h3 {
     font-size: 1.2rem;
-    
+
 }
-a{
+
+a {
     text-decoration: none;
 }

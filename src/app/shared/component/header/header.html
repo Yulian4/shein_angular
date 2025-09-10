@@ -3,4 +3,12 @@
     <a routerLink="/accesorios">Accesorios</a>
     <a routerLink="/bolsos">Bolsos</a>
     <a routerLink="/ropa">Ropita</a>
+    <div class="cartContainer" (click)="aggCarrito()">
+        <a routerLink="/cart">
+            <img src="/assets/cartIconPink.png" alt="">
+            <span class="aumento" *ngIf="cantidadCarrito > 0">
+                {{cantidadCarrito}}
+            </span>
+        </a>
+    </div>
 </div>

@@ -10,27 +10,33 @@ section {
     align-items: center;
 }
 
-li, a{
+li,
+a {
     list-style-type: none;
     font-size: 1.3rem;
     color: rgb(129, 15, 62);
     text-decoration: none;
 }
-#bolder{
+
+#bolder {
     font-weight: bolder;
 }
+
 .footTitle {
     font-weight: bolder;
     font-family: "Alex Brush", cursive;
     font-size: 4rem;
     line-height: 1;
+    color: #7e0738;
 }
-.copyright{
+
+.copyright {
     background-color: rgb(255, 239, 250);
     text-align: center;
-    color: rgb(255, 192, 216);
+    color: rgb(197, 108, 142);
     font-family: "Poppins", sans-serif;
 }
-p{
+
+p {
     margin: 0;
 }

@@ -1,21 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 150px;
-}
-a{
-    text-decoration: none;
-    padding: 10px;
-    font-size: 1.4rem;
-    font-family: "Poppins", sans-serif;
-    color: #e72b79;
-    font-weight: 600;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 150px;
 }
 
-.logo{
+a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+  color: #e72b79;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #b3074f;
+}
+
+.logo {
   font-family: "Alex Brush", cursive;
   font-size: 3rem;
+}
+
+img {
+  width: 34px;
+  height: 34px;
+}
+
+/*cantidad en carrito*/
+.cartContainer {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.aumento {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 2px 6px;
+  min-width: 18px;
+  text-align: center;
 }

@@ -1,12 +1,94 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { ProductCard } from '../product-card/product-card';
+import { CommonModule } from '@angular/common';
+
 
 @Component({
   selector: 'app-accesorios-list',
-  imports: [ProductCard],
+  imports: [CommonModule, ProductCard],
   templateUrl: './accesorios-list.html',
   styleUrl: './accesorios-list.css'
 })
 export class AccesoriosList {
+  productos = signal([
+    {
+      img: '/assets/products/accesorios/accesorio1.jpg',
+      name: 'Aretes de mariposa en Resina',
+      price: 4500,
+      available: false
+    },
+    {
+      img: '/assets/products/accesorios/accesorio2.jpg',
+      name: 'Anillo elegante floral',
+      price: 7000,
+      available: true
+    },
+    {
+      img: '/assets/products/accesorios/accesorio3.jpg',
+      name: 'Elegante anillo de princesa',
+      price: 12000,
+      available: true
+    },
+    {
+      img: '/assets/products/accesorios/accesorio4.jpg',
+      name: 'Collar con colgante mariposa',
+      price: 20000,
+      available: true
+    },
+    {
+      img: '/assets/products/accesorios/accesorio5.jpg',
+      name: 'Par de pendientes florales',
+      price: 4800,
+      available: true
+    },
+    {
+      img: '/assets/products/accesorios/accesorio6.jpg',
+      name: 'Elegante collar floral',
+      price: 13000,
+      available: true
+    },
+    {
+      img: '/assets/products/accesorios/accesorio7.jpg',
+      name: 'Anillo de compromiso',
+      price: 8500,
+      available: false
+    },
+    {
+      img: '/assets/products/accesorios/accesorio8.jpg',
+      name: 'Elegantes moños para el cabello',
+      price: 4000,
+      available: true
+    },
+    {
+      img: '/assets/products/accesorios/accesorio9.jpg',
+      name: 'Llavero personalizado con nombre',
+      price: 3200,
+      available: true
+    },
+    {
+      img: '/assets/products/accesorios/accesorio10.jpg',
+      name: 'Lindo brazalete de tulipan',
+      price: 7800,
+      available: true
+    },
+    {
+      img: '/assets/products/accesorios/accesorio11.jpg',
+      name: 'Aretes elegantes de moñito',
+      price: 4500,
+      available: false
+    },
+    {
+      img: '/assets/products/accesorios/accesorio12.jpg',
+      name: 'Brazalete de margaritas',
+      price: 9000,
+      available: false
+    },
+    {
+      img: '/assets/products/accesorios/accesorio13.jpg',
+      name: 'Brazalete de perlas',
+      price: 9200,
+      available: false
+    }
+  ])
 
 }

@@ -1,0 +1,17 @@
+<app-header></app-header>
+<h2>Mi carrito</h2>
+<section>
+
+    <div *ngFor="let producto of carrito" class="card">
+        <img src="{{producto.img}}" alt="">
+        <div class="info">
+            <p>{{ producto.name }} - Precio: ${{ producto.price }}</p>
+            <button (click)="msj(producto)" [disabled]="producto.available === 0">
+                Comprar
+            </button>
+        </div>
+    </div>
+
+</section>
+
+<app-footer></app-footer>

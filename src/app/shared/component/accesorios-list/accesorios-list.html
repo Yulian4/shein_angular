@@ -1,81 +1,9 @@
 <section class="containerProd">
 <app-product-card
-    [img]="'/assets/products/accesorios/accesorio1.jpg'"
-    [name]="'Aretes de mariposa en Resina'"
-    [price]="4500"
-    [available]="false">
+    *ngFor="let producto of productos()"
+    [img]="producto.img"
+    [name]="producto.name"
+    [price]="producto.price"
+    [available]="producto.available">
 </app-product-card>
-<app-product-card
-    [img]="'/assets/products/accesorios/accesorio2.jpg'"
-    [name]="'Anillo elegante floral'"
-    [price]="7000"
-    [available]="true">
-</app-product-card>
-<app-product-card
-    [img]="'/assets/products/accesorios/accesorio3.jpg'"
-    [name]="'Elegante anillo de princesa'"
-    [price]="12000"
-    [available]="true">
-</app-product-card>
-<app-product-card
-    [img]="'/assets/products/accesorios/accesorio4.jpg'"
-    [name]="'Collar con colgante mariposa'"
-    [price]="20000"
-    [available]="true">
-</app-product-card>
-<app-product-card
-    [img]="'/assets/products/accesorios/accesorio5.jpg'"
-    [name]="'Par de pendientes florales'"
-    [price]="4800"
-    [available]="true">
-</app-product-card>
-<app-product-card
-    [img]="'/assets/products/accesorios/accesorio6.jpg'"
-    [name]="'Elegante collar floral'"
-    [price]="13000"
-    [available]="true">
-</app-product-card>
-<app-product-card
-    [img]="'/assets/products/accesorios/accesorio7.jpg'"
-    [name]="'Anillo de compromiso '"
-    [price]="8500"
-    [available]="false">
-</app-product-card>
-<app-product-card
-    [img]="'/assets/products/accesorios/accesorio8.jpg'"
-    [name]="'Elegantes moños para el cabello'"
-    [price]="4000"
-    [available]="true">
-</app-product-card>
-<app-product-card
-    [img]="'/assets/products/accesorios/accesorio9.jpg'"
-    [name]="'Llavero personalizado con nombre'"
-    [price]="3200"
-    [available]="true">
-</app-product-card>
-<app-product-card
-    [img]="'/assets/products/accesorios/accesorio10.jpg'"
-    [name]="'Lindo brazalete de tulipan'"
-    [price]="7800"
-    [available]="true">
-</app-product-card>
-<app-product-card
-    [img]="'/assets/products/accesorios/accesorio11.jpg'"
-    [name]="'Aretes elegantes de moñito'"
-    [price]="4500"
-    [available]="false">
-</app-product-card>
-<app-product-card
-    [img]="'/assets/products/accesorios/accesorio12.jpg'"
-    [name]="'Brazalete de margaritas'"
-    [price]="9000"
-    [available]="false">
-</app-product-card>
-<app-product-card
-    [img]="'/assets/products/accesorios/accesorio13.jpg'"
-    [name]="'Brazalete de perlas'"
-    [price]="9200"
-    [available]="false">
-</app-product-card>
-
 </section>
